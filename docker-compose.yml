@@ -1,0 +1,8 @@
+version: "2.3"
+services:
+    app:
+        runtime: nvidia
+        build: .
+        tty: true
+        volumes:
+            - ".:/workspace"
